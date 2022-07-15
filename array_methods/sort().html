@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Remove duplicate numbers</title>
+        <script type="text/javascript"></script>
+    </head>
+    <body>
+        <h1>Removing dupplicate keys from an array</h1>
+        <p id="1"></p>
+        <p id="2"></p>
+        <p id="3"></p>
+        <script>
+            const a=[9,12,2,43,22,1];
+            document.getElementById("1").innerHTML=a;
+
+           a.sort(function(a,b){return a - b});
+           document.getElementById("2").innerHTML=a;
+            
+           a.sort(function(a,b){return b - a});
+           document.getElementById("3").innerHTML=a;
+	        
+
+</script>
+
+    </body>
+</html>
