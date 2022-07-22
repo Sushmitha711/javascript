@@ -1,11 +1,11 @@
 class product{
     p_Name;
-    get_Name(Name){
-        this.p_Name=Name
+    get_Name(id){
+        this.p_Name=id
     }
 }
 let a1= new product()
-a1.get_Name("Sushmitha")
+a1.get_Name(101)
 console.log(a1)
 console.log(a1.p_Name)
 let a2=new product()
