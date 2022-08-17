@@ -1,5 +1,5 @@
 
-// Polyndrom of string.
+// Palindrom of string.
 
 let a="madam";
 let b=a.split("");
@@ -7,9 +7,9 @@ let c=b.reverse();
 let d=c.join("");
 console.log(d)
 if(a===d){
-  console.log("yes it is a polyndrom:");
+  console.log("yes it is a palindrome:");
 }else{
-  console.log("It is not a polyndrom:")
+  console.log("It is not a palindrome:")
 }
 
 //polyndrom of number
